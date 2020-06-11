@@ -23,7 +23,8 @@ Checkout the demo video
 * Tracker with MLP
 * Tracker with LSTM 
 * Tracker with PointNet local features (Points inside BBOX)
-* Fusion with stero-image and then using Frustum pointnet with 2D+3D ground-truth (mAP 96.48% on KITTI-Easy)
+* Fusion with stereo-images(360) and then using Frustum pointnet with 2D+3D ground-truth (mAP 96.48% on KITTI-Easy)
+* Fusion with range-image and PointGNN
 
 
 
