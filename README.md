@@ -10,8 +10,22 @@ Trained seperate for Pedestrain and Vehicle classes.
 
 Vanilla AB3DMOT modified for PointRCNN output.  
 Used mahalanobis distance and feature.  
-__Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_  
+__Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_ (Needs to be trained >100 epochs, didnt happend in time)
 Pipline is Detection -> Tracker -> MLP-refine -> IDs, Locations, Size  
 
 Checkout the demo video  
+
+## In-Progress:
+* PointRCNN with Centerness loss + Non-NMS regression 
+* PointRCNN with Autoregressive Transformer regression
+* PointRCNN with PointCNN w. knn-graph Backbone (Performs better in RPN, more backbones can be tried)
+* PointRCNN with MeteorNet Tracker
+* Tracker with MLP
+* Tracker with LSTM 
+* Tracker with PointNet local features (Points inside BBOX)
+* Fusion with stero-image and then using Frustum pointnet with 2D+3D ground-truth (mAP 96.48% on KITTI-Easy)
+
+
+
+
 
