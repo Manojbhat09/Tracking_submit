@@ -1,12 +1,12 @@
-# Argoverse-challenge-submission
+# Argoverse Tracking Challenge submission
 
-Detection module:
+### Detection module:
 
 PointRCNN with Centerness loss (FCOS on 3D) for robust 3D object detection. (mAP 95.12% on KITTI-Easy vs 85.95%)  
 Along with Argoverse dataloader.  
 Trained seperate for Pedestrain and Vehicle classes.  
 
-Tracker module:
+### Tracker module:
 
 Vanilla AB3DMOT modified for PointRCNN output.  
 Used mahalanobis distance and feature.  
