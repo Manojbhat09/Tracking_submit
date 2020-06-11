@@ -1,0 +1,16 @@
+2020-04-15 20:00:55,253   INFO  -------------------performance of epoch no_number---------------------
+2020-04-15 20:00:55,253   INFO  2020-04-15 20:00:55.253976
+2020-04-15 20:00:55,254   INFO  final average detections: 15.378
+2020-04-15 20:00:55,254   INFO  final average rpn_iou refined: 0.000
+2020-04-15 20:00:55,254   INFO  final average cls acc: 0.000
+2020-04-15 20:00:55,254   INFO  final average cls acc refined: 0.000
+2020-04-15 20:00:55,254   INFO  total roi bbox recall(thresh=0.100): 1280 / 2136 = 0.599251
+2020-04-15 20:00:55,254   INFO  total roi bbox recall(thresh=0.300): 1195 / 2136 = 0.559457
+2020-04-15 20:00:55,254   INFO  total roi bbox recall(thresh=0.500): 817 / 2136 = 0.382491
+2020-04-15 20:00:55,254   INFO  total roi bbox recall(thresh=0.700): 360 / 2136 = 0.168539
+2020-04-15 20:00:55,254   INFO  total roi bbox recall(thresh=0.900): 2 / 2136 = 0.000936
+2020-04-15 20:00:55,254   INFO  total bbox recall(thresh=0.100): 1279 / 2136 = 0.598783
+2020-04-15 20:00:55,254   INFO  total bbox recall(thresh=0.300): 1169 / 2136 = 0.547285
+2020-04-15 20:00:55,254   INFO  total bbox recall(thresh=0.500): 895 / 2136 = 0.419007
+2020-04-15 20:00:55,254   INFO  total bbox recall(thresh=0.700): 548 / 2136 = 0.256554
+2020-04-15 20:00:55,254   INFO  total bbox recall(thresh=0.900): 26 / 2136 = 0.012172
