@@ -10,7 +10,7 @@ Trained seperate for Pedestrain and Vehicle classes.
 
 Vanilla AB3DMOT modified for PointRCNN output.  
 Used mahalanobis distance and feature.  
-__Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_ (Needs to be trained >100 epochs, didnt happend in time)
+__Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_ (Needs to be trained >100 epochs, didnt happen in time)
 Pipline is Detection -> Tracker -> MLP-refine -> IDs, Locations, Size  
 
 Checkout the demo video  
