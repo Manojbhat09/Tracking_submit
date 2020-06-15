@@ -1,6 +1,6 @@
 # Argoverse Tracking Challenge submission
 
-### Detection module:(Vanialla PointRCNN only available here) 
+### Detection module:(Vanilla PointRCNN only available here) 
 
 PointRCNN with Centerness loss (FCOS on 3D) for robust 3D object detection. (mAP 95.12% on KITTI-Easy vs 85.95%)[To be released]  
 Along with Argoverse dataloader.  
