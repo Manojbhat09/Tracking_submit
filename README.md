@@ -1,8 +1,8 @@
 # Argoverse Tracking Challenge submission
 
-### Detection module:
+### Detection module:(Vanialla PointRCNN only available here) 
 
-PointRCNN with Centerness loss (FCOS on 3D) for robust 3D object detection. (mAP 95.12% on KITTI-Easy vs 85.95%)  
+PointRCNN with Centerness loss (FCOS on 3D) for robust 3D object detection. (mAP 95.12% on KITTI-Easy vs 85.95%)[To be released]  
 Along with Argoverse dataloader.  
 Trained seperate for Pedestrain and Vehicle classes.  
 
@@ -10,7 +10,7 @@ Trained seperate for Pedestrain and Vehicle classes.
 
 Vanilla AB3DMOT modified for PointRCNN output.  
 Used mahalanobis distance and feature.  
-__Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_ (Needs to be trained >100 epochs, didnt happen in time)
+__Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_ (Needs to be trained fully, didnt happen in time)
 Pipline is Detection -> Tracker -> MLP-refine -> IDs, Locations, Size  
 
 Without Groundtuth (Colored Trackers)  &  With Groundtuth (white + Colored Trackers):
