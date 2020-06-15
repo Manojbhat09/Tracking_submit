@@ -14,9 +14,9 @@ __Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_ (
 Pipline is Detection -> Tracker -> MLP-refine -> IDs, Locations, Size  
 
 Without Groundtuth (Colored Trackers):
-![Alt Text](https://github.com/Manojbhat09/Tracking_submit/blob/master/with_gt_555.gif)
+![With](https://github.com/Manojbhat09/Tracking_submit/blob/master/with_gt_555.gif | width=300)
 With Groundtuth (white + Colored Trackers):
-![Alt Text](https://github.com/Manojbhat09/Tracking_submit/blob/master/without_gt.gif)
+![Without](https://github.com/Manojbhat09/Tracking_submit/blob/master/without_gt.gif | width=300)
 
 ## In-Progress:
 * PointRCNN with Centerness loss + Non-NMS regression 
