@@ -13,7 +13,7 @@ Used mahalanobis distance and feature.
 __Note__: The repo incudes Tracker with MLP refinement in _run_ab3dmot_mod.py_ (Needs to be trained >100 epochs, didnt happen in time)
 Pipline is Detection -> Tracker -> MLP-refine -> IDs, Locations, Size  
 
-Checkout the demo video  
+![Alt Text](https://github.com/Manojbhat09/Tracking_submit/blob/master/with_gt_555.gif)
 
 ## In-Progress:
 * PointRCNN with Centerness loss + Non-NMS regression 
